@@ -28,7 +28,7 @@ public class GetReqAPI {
 		
 		 given().queryParam("page","2").
 		 when().get(resource).
-		 then().assertThat().statusCode(201);
+		 then().assertThat().statusCode(200);
 		
 	}
 	
